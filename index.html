@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Page Title</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/background.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hover-text.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
 
-    <main>
-        <section>
-            <h2>Section Title</h2>
-            <p>This is a paragraph of text in the section.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+    <div id="background"></div>
+    <script src="scripts/header.js"></script>
+    <div id="sections" style="margin-top: 64px; display: flex; gap: 20px">
+        <script src="scripts/about.js"></script>
+        <script src="scripts/hobbies.js"></script>
+        <script src="scripts/contact.js"></script>
+    </div>
+    <script src="scripts/background.js"></script>
+    <div style="width: 100vw; height: 48px; position: absolute; z-index: 1; bottom: 0px; left: 0; background-color: red;">
+        <!-- <footer>&copy; 2024 WYF</footer> -->
+    </div>
 </body>
 </html>

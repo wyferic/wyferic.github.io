@@ -1,0 +1,8 @@
+#background {
+    width: 100vw;
+    height: calc(100vh + 48px);
+    position: fixed; 
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
