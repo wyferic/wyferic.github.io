@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-    readonly BIRTHDAY: string
+    readonly VITE_BIRTHDAY: string
 }
 
 interface ImportMeta {
