@@ -1,5 +1,6 @@
 export const About = () => {
 	const date: number = Math.floor((new Date().getTime() - new Date(`${import.meta.env.VITE_BIRTHDAY}T00:00:00Z`).getTime()) / 31557600000);
+	console.log(import.meta.env.VITE_BIRTHDAY)
 	return (
 		<section id="about" className="scroll-mt-[96px] w-[90vw] md:w-[md] max-w-[60ch] bg-white dark:bg-gray-900 dark:text-white">
 			<h2>About</h2>
