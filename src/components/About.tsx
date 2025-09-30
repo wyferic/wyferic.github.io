@@ -1,17 +1,11 @@
 export const About = () => {
-	const date = Math.floor(
-		// @ts-expect-error
-		(new Date() - new Date("2001-05-01T00:00:00Z")) / 31536000000,
-	);
-
+	const date: number = Math.floor((new Date().getTime() - new Date("2001-05-01T00:00:00Z").getTime()) / 31557600000);
 	return (
-		<section id="about">
+		<section id="about" className="scroll-mt-[96px] w-[90vw] md:w-[md] max-w-[60ch] bg-white dark:bg-gray-900 dark:text-white">
 			<h2>About</h2>
+			<img src="src/peak.png" className="my-4 mx-auto block rounded 2xl"></img>
 			<p>
-				{date}
-				M,
-				<del>chatgpt prompt spammer</del> "programmer", single, and ready to
-				mingle
+				{date}M, <del>ChatGPT enjoyer</del> "programmer."
 			</p>
 		</section>
 	);
