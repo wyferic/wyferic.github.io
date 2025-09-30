@@ -2,7 +2,7 @@ export const Contact = () => {
 	return (
 		<section id="contact" className="scroll-mt-[96px] w-[90vw] md:w-[md] mb-[calc(20px+48px)] max-w-[60ch] bg-white dark:bg-gray-900 dark:text-white">
 			<h2>Contact</h2>
-			<form action="#" method="post" className="mx-auto w-full text-center">
+			<form action={process.env.CONTACT_FORM_ENDPOINT} method="post" className="mx-auto w-full text-center">
 				<p>
 					Email me at <a id="send" href="mailto:yifeng.wang@utoronto.ca">yifeng.wang@utoronto.ca</a> or fill the form
 				</p>
