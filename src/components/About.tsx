@@ -6,7 +6,7 @@ export const About = () => {
 			<h2>About</h2>
 			<img src="/peak.png" className="my-4 mx-auto block rounded 2xl"></img>
 			<p>
-				{date}M, <del>ChatGPT enjoyer</del> "programmer."
+				{date}M, <del>ChatGPT enjoyer</del> "programmer." 
 			</p>
 		</section>
 	);

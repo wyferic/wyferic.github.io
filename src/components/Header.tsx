@@ -16,7 +16,7 @@ export const Header = () => {
 			<div className="flex-1 flex justify-center md:justify-end md:mr-8">
 				<nav className="flex space-x-8 mr-8">
 					<a href="#about" className="text-black dark:text-white relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-[10%] after:w-[80%] after:h-[2px] after:rounded after:bg-black after:transform after:scale-x-0 after:origin-center after:transition-transform after:duration-100 hover:after:scale-x-100 dark:after:bg-white pb-1">About</a>
-					<a href="#projects" className="text-black dark:text-white relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-[10%] after:w-[80%] after:h-[2px] after:rounded after:bg-black after:transform after:scale-x-0 after:origin-center after:transition-transform after:duration-100 hover:after:scale-x-100 dark:after:bg-white pb-1">Projects</a>
+					<a href="#projects" className="text-black dark:text-white relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-[10%] after:w-[80%] after:h-[2px] after:rounded after:bg-black after:transform after:scale-x-0 after:origin-center after:transition-transform after:duration-100 hover:after:scale-x-100 dark:after:bg-white pb-1">Stuff</a>
 					<a href="#contact" className="text-black dark:text-white relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-[10%] after:w-[80%] after:h-[2px] after:rounded after:bg-black after:transform after:scale-x-0 after:origin-center after:transition-transform after:duration-100 hover:after:scale-x-100 dark:after:bg-white pb-1">Contact</a>
 				</nav>
 
