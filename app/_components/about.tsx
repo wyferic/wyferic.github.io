@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const About = () => {
-	const date: number = Math.floor((new Date().getTime() - new Date(`${process.env.BIRTHDAY}T00:00:00Z`).getTime()) / 31557600000);
+	const date: number = Math.floor((new Date().getTime() - new Date(`${process.env.NEXT_PUBLIC_BIRTHDAY}T00:00:00Z`).getTime()) / 31557600000);
 	return (
 		<section id="about" className="rounded-md scroll-mt-24 w-[90vw] md:w-[md] max-w-[60ch] bg-white dark:bg-gray-900 dark:text-white">
 			<h2>About</h2>
