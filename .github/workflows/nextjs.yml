@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BIRTHDAY: ${{ secrets.BIRTHDAY }}
+  NEXT_PUBLIC_BIRTHDAY: ${{ secrets.NEXT_PUBLIC_BIRTHDAY }}
 
 jobs:
   # Build job
