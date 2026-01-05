@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 const email = "yifeng.wang@utoronto.ca";
 const endpoint = "https://formspree.io/f/xeoylzje";
