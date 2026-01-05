@@ -2,13 +2,6 @@ import { IoChatbubbleOutline } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io5";
 import { IoPerson } from "react-icons/io5";
 
-import { redirect, RedirectType } from 'next/navigation'
-
-
-const fadeOut = () => {
-  redirect('/pages/blog', RedirectType.push);
-}
-
 export const Projects = () => {
   return (
     <section
@@ -18,7 +11,7 @@ export const Projects = () => {
       <h2>Stuff</h2>
       <ul className="ml-2">
         <li className="">
-          <a onClick={fadeOut}>
+          <a href="/pages/blog">
             <span className="underline flex hover:bg-gray-200 hover:dark:bg-gray-800 p-2 rounded-sm transition-colors duration-200">
               <IoChatbubbleOutline className="w-6 h-6 pr-1" /> Blog
             </span>

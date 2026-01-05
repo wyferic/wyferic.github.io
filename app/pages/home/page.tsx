@@ -1,3 +1,5 @@
+"use client"
+
 import { HeaderHome } from "@/app/_components/header";
 import { Background } from "@/app/pages/home/_components/background";
 import { Projects } from "@/app/pages/home/_components/projects";
