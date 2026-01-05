@@ -13,7 +13,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="scroll-mt-24 w-[90vw] md:w-[md] max-w-[60ch] bg-white dark:bg-gray-900 dark:text-white rounded-md"
+      className="drop-shadow-md scroll-mt-24 w-[90vw] md:w-[md] max-w-[60ch] bg-white dark:bg-gray-900 dark:text-white rounded-md"
     >
       <h2>Stuff</h2>
       <ul className="ml-2">

@@ -1,12 +1,24 @@
 import { HeaderBlog } from "@/app/_components/header";
- 
-export default function Layout({ children }: { children: React.ReactNode }) {
+import { HOME_OG_IMAGE_URL } from "@/app/pages/blog/lib/constants";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: `Eric Wang's Blog`,
+  description: `The Blog of Eric Wang.`,
+  openGraph: {
+    images: [HOME_OG_IMAGE_URL],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-      <div className="w-full flex-none md:w-64">
+      <>
         <HeaderBlog />
-      </div>
-      <div className="grow p-6 md:overflow-y-auto md:p-12">{children}</div>
-    </div>
+        <div className="absolute w-screen top-12 min-h-[calc(100vh-48px)]">{children}</div>
+      </>
   );
 }

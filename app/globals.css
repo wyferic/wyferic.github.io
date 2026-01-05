@@ -15,12 +15,14 @@ body {
 section {
     display: block;
     padding: 12px;
-    /* border-radius: 12px; */
     margin: 48px auto;
     z-index: 1;
-    filter: drop-shadow(2px 2px 4px #000000);
 }
 
 code {
   font-family: "Atkinson Hyperlegible Mono", sans-serif;
+}
+
+Image {
+    @apply rounded-3xl
 }

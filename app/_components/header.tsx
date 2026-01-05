@@ -1,5 +1,5 @@
 import { HeaderButton } from "./header-button";
-import { HeaderSearch } from "./header-search"; 
+// import { HeaderSearch } from "./header-search"; 
 import { ThemeToggle } from "./theme-toggle";
 
 export const HeaderBlog = () => {
@@ -9,7 +9,7 @@ export const HeaderBlog = () => {
         WYF
       </span>
 
-      <HeaderSearch />
+      {/* <HeaderSearch /> */}
 
       <div className="flex-1 flex justify-center md:justify-end md:mr-8">
         <div className="flex align-center">

@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import { IoSunny, IoMoon } from "react-icons/io5";
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
