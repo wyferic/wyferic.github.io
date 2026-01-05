@@ -2,13 +2,13 @@
 title: "A True Gamer"
 tags: ["shitpost", "short story"]
 excerpt: "Ten thousand minutes pass. The computer science quiz covers my monitor. The deadline approaches ..."
-coverImage: "/assets/blog/a-true-gamer/cover.png"
+coverImage: "/assets/blog/posts/a-true-gamer/cover.png"
 date: "2021-08-21T15:46:00.322Z"
 author:
   name: Eric Wang
   picture: "/assets/blog/authors/eric-wang.png"
 ogImage:
-  url: "/assets/blog/a-true-gamer/cover.png"
+  url: "/assets/blog/posts/a-true-gamer/cover.png"
 ---
 
 Ten thousand minutes pass. The computer science quiz covers my monitor. The deadline approaches. My Mountain Dew and Dorito rations run scarce. Dew drops trickle the crevices and collect beneath the bottle. Dorito crumbs scatter my desk and gaming chair from the empty crinkled bag. The end is near. I hover the taskbar, close Minecraft, and address the quiz. I’ll chop the dark oaks later. I skim the five questions of increasing difficulty, each with multiple parts, the recursive functions, and the binary search trees. My vision fades as I read each question, fill each blank, and code each line. My body weight presses against me. I feel heavy. I moan, persevere, and finish the questions. My arms shake. I hover the cursor over the submit button. I re-evaluate my answers, my life choices, and my existence. 
