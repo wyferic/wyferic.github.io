@@ -3,7 +3,7 @@ title: "Death, Taxes, and Hotdogs"
 tags: ["data"]
 excerpt: "It’s been five hours since my last meal. My stomach grumbles as I pedal my rusty bike. I ascend the hill, pass the intersection, and enter the parking lot. My legs shake. I found it ..."
 coverImage: "/assets/blog/posts/death-taxes-hotdogs/cover.png"
-date: "2020-03-16T05:35:07.322Z"
+date: "2024-08-12T21:24:00.322Z"
 author:
   name: Eric Wang
   picture: "/assets/blog/authors/eric-wang.png"
