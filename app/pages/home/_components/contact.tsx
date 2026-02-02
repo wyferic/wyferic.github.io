@@ -28,6 +28,7 @@ export const Contact = () => {
 
   return (
     <form
+	  id="contact"
       action={endpoint}
       method="post"
       onSubmit={handleSubmit}
