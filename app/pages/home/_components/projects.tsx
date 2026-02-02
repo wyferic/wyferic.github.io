@@ -33,7 +33,7 @@ export const Projects = () => {
         </li>
 
 		<li className="">
-          <a href="assets/VeryCoolResume.pdf" download>
+          <a href="assets/home/VeryCoolResume.pdf" download>
             <span className="underline flex hover:bg-gray-200 hover:dark:bg-gray-800 p-2 rounded-sm transition-colors duration-200">
               <IoPerson className="w-6 h-6 pr-1" /> Resume
             </span>
