@@ -1,6 +1,6 @@
 import { HeaderButton } from "./header-button";
 // import { HeaderSearch } from "./header-search"; 
-import { ThemeToggle } from "./theme-toggle";
+import ThemeToggle from "./theme-toggle";
 
 export const HeaderBlog = () => {
   return (
